@@ -1,0 +1,30 @@
+# ==============================
+# OS & Workspace Files (Root level)
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.sln
+
+# ==============================
+# React Frontend (Vite)
+# ==============================
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+frontend/npm-debug.log*
+
+# ==============================
+# Spring Boot Backend (Java)
+# ==============================
+backend/target/
+backend/*.class
+backend/*.jar
+backend/*.war
+backend/*.log
+backend/.settings/
+backend/.classpath
+backend/.project
